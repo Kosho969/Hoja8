@@ -1,0 +1,5 @@
+Pablo,cancer,A
+Esmeralda,berruga,B
+Jose,diarrea,E
+Freddie,alergia,C
+Freddie,alergia,C
