@@ -26,24 +26,6 @@ public class VectorHeap<E extends Comparable<E>> extends PriorityQueue<E>{
 	public void agregar(Paciente paciente){
 		cola.add(paciente);
 	}
-	
-	public void quitar(){
-		cola.poll();
-		}
-	/**
-	 * @return
-	 * @throws IOException
-	 */
-	public int Contador() throws IOException{
-		FileReader f = new FileReader("pacientes.txt");
-	    BufferedReader b = new BufferedReader(f);
-	    String cadena;
-	    int contador = 0;
-	    while((cadena = b.readLine())!=null) {
-			contador ++;
-	    }
-	    return contador;
-	}
 		
 	
 	
